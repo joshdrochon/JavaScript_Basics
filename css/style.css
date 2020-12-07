@@ -51,12 +51,15 @@
     margin-bottom: 20px;
 }
 
-.definition-title {
-    text-decoration: underline;
+a {
     color:#64d8df;
 }
 
-.main-content h2, .main-content p, .main-content li, .footer p {
+.main-content a {
+    text-decoration: underline;
+}
+
+.main-content h2, .main-content p, .main-content li, .footer {
     color: #c2d6eb;
 }
 
@@ -68,7 +71,7 @@ ul.facts li {
     margin-bottom: 5px;
 }
 
-ul.facts span:not(.definition-title) {
+ul.facts span {
     color: #666de6;
 }
 
@@ -79,5 +82,5 @@ ul.facts span:not(.definition-title) {
 .footer {
     background-color: #5d6673;
     border-radius: 10px;
-    padding: 10px;
+    padding: 26px 20px;
 }
